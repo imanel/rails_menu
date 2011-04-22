@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Simple menu generator for Ruby on Rails}
   s.description = %q{Simple menu generator for Ruby on Rails}
 
-  s.add_dependency 'action_pack'
+  s.add_dependency 'actionpack'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
